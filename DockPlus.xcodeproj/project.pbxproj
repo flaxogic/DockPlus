@@ -39,6 +39,7 @@
 		FEBAF73D42FD9294D4D5077C /* ConfigStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61290F2850A4ADA6810DCD61 /* ConfigStoreTests.swift */; };
 		E812CADE8F76C38AAA513360 /* DockGeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3206A2860BEE96BDE038E4B6 /* DockGeometryTests.swift */; };
 		B08C37AD2C138F78D384947F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BE0E512F0DADBD54C3042FC /* Assets.xcassets */; };
+		353FE9E7C828213FFB7B9B85 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 1D35C0C15413FCCBE4A61624 /* AppIcon.icon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		1E619B516CF168D9ECE14656 /* DockPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DockPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F7EF05F32D118804D3638E /* DockPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DockPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE0E512F0DADBD54C3042FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D35C0C15413FCCBE4A61624 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 		30FE55748BFCC77C46B41CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		471DC5269F5717F29172A0B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6979D155E83ECBCDAB6D0907 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		171D6C198AE40ED4A040BB61 = {
 			isa = PBXGroup;
 			children = (
+				1D35C0C15413FCCBE4A61624 /* AppIcon.icon */,
 				EA0A96CF14E4DFB38646AC1A /* DockPlus */,
 				B8A37E9B086FF9B9722B44D8 /* DockPlusTests */,
 				27376E0C7D98A85EF39644D5 /* Products */,
@@ -310,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B08C37AD2C138F78D384947F /* Assets.xcassets in Resources */,
+				353FE9E7C828213FFB7B9B85 /* AppIcon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

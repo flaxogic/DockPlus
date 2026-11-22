@@ -1,0 +1,110 @@
+{
+  "fill" : "automatic",
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "image-name" : "07-plus-symbol.svg",
+          "name" : "07-plus-symbol"
+        },
+        {
+          "image-name" : "06-plus-badge-circle.svg",
+          "name" : "06-plus-badge-circle"
+        },
+        {
+          "image-name" : "05-bottom-dock-icons.svg",
+          "name" : "05-bottom-dock-icons"
+        },
+        {
+          "image-name" : "03-top-dock-icons.svg",
+          "name" : "03-top-dock-icons"
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.3
+      }
+    },
+    {
+      "layers" : [
+        {
+          "image-name" : "04-bottom-dock-pill.svg",
+          "name" : "04-bottom-dock-pill"
+        }
+      ],
+      "name" : "Group",
+      "shadow" : {
+        "kind" : "layer-color",
+        "opacity" : 0
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.43
+      }
+    },
+    {
+      "layers" : [
+        {
+          "fill" : {
+            "linear-gradient" : [
+              "display-p3:0.99480,0.99798,0.99988,1.00000",
+              "display-p3:0.99156,0.99789,0.99987,1.00000"
+            ]
+          },
+          "image-name" : "02-top-dock-pill.svg",
+          "name" : "02-top-dock-pill"
+        }
+      ],
+      "shadow" : {
+        "kind" : "layer-color",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.43
+      }
+    },
+    {
+      "layers" : [
+        {
+          "fill" : {
+            "linear-gradient" : [
+              "srgb:0.07548,0.55225,1.00000,1.00000",
+              "srgb:1.00000,1.00000,1.00000,1.00000"
+            ],
+            "orientation" : {
+              "start" : {
+                "x" : 0.5,
+                "y" : 0.5
+              },
+              "stop" : {
+                "x" : 1.0676665940940049,
+                "y" : 0.982285373605895
+              }
+            }
+          },
+          "image-name" : "01-background.svg",
+          "name" : "01-background"
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.3
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
