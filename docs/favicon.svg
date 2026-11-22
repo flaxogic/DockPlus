@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="12" y1="8" x2="88" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E6CFF" />
+      <stop offset="55%" stop-color="#3B49DF" />
+      <stop offset="100%" stop-color="#141838" />
+    </linearGradient>
+    <linearGradient id="glass" x1="18" y1="54" x2="82" y2="82" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.48" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.16" />
+    </linearGradient>
+    <linearGradient id="glassTop" x1="26" y1="22" x2="74" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.34" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.12" />
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="92" height="92" rx="22" fill="url(#bg)" />
+  <rect x="4.75" y="4.75" width="90.5" height="90.5" rx="21.25" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="1.5" />
+
+  <!-- Secondary floating dock pill -->
+  <rect x="22" y="23" width="56" height="21" rx="8.5" fill="url(#glassTop)" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="1.2" />
+  <rect x="29" y="28.5" width="10" height="10" rx="3" fill="#FFFFFF" fill-opacity="0.92" />
+  <rect x="45" y="28.5" width="10" height="10" rx="3" fill="#68D8FF" fill-opacity="0.95" />
+  <rect x="61" y="28.5" width="10" height="10" rx="3" fill="#C4B5FD" fill-opacity="0.95" />
+
+  <!-- Primary dock pill -->
+  <rect x="14" y="54" width="72" height="26" rx="10" fill="url(#glass)" stroke="#FFFFFF" stroke-opacity="0.58" stroke-width="1.4" />
+  <rect x="21" y="60.5" width="12" height="12" rx="3.5" fill="#60A5FA" />
+  <rect x="37" y="60.5" width="12" height="12" rx="3.5" fill="#FFFFFF" fill-opacity="0.96" />
+  <rect x="53" y="60.5" width="12" height="12" rx="3.5" fill="#34D399" />
+
+  <!-- Plus badge -->
+  <circle cx="74" cy="66.5" r="7.5" fill="#0A84FF" stroke="#FFFFFF" stroke-width="1.4" />
+  <path d="M74 63V70M70.5 66.5H77.5" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" />
+</svg>
